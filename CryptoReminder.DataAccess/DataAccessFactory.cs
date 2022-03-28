@@ -1,6 +1,6 @@
 ﻿namespace CryptoReminder.DataAccess
 {
-    public class Class1
+    public class DataAccessFactory
     {
 
     }
