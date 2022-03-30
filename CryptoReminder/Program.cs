@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using CryptoReminder.DataAccess;
+
+var services = DataAccessFactory.GetServicesInstance();
+var data = services.GetCurrencies().Result;
