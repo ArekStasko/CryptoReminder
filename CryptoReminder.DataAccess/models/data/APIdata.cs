@@ -6,4 +6,9 @@ namespace CryptoReminder.DataAccess.models.data
     {
         public List<Currency> data { get; set; }
     }
+
+    internal class APISingleData
+    {
+        public Currency data { get; set; }
+    }
 }
