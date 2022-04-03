@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoReminder.Controllers"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoReminder.DataAccess", "CryptoReminder.DataAccess\CryptoReminder.DataAccess.csproj", "{00079129-F0F8-4294-A9C1-AABCADF062D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoReminder.WPF", "CryptoReminder.WPF\CryptoReminder.WPF.csproj", "{80EF6556-0BD3-4834-AE11-EC6570C28B83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoReminder.WPF", "CryptoReminder.WPF\CryptoReminder.WPF.csproj", "{80EF6556-0BD3-4834-AE11-EC6570C28B83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoReminder.DataAccess.Tests", "CryptoReminder.DataAccess.Tests\CryptoReminder.DataAccess.Tests.csproj", "{4036028A-37EB-45E3-8AD9-B3F6A2D55450}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{80EF6556-0BD3-4834-AE11-EC6570C28B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80EF6556-0BD3-4834-AE11-EC6570C28B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80EF6556-0BD3-4834-AE11-EC6570C28B83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4036028A-37EB-45E3-8AD9-B3F6A2D55450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4036028A-37EB-45E3-8AD9-B3F6A2D55450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4036028A-37EB-45E3-8AD9-B3F6A2D55450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4036028A-37EB-45E3-8AD9-B3F6A2D55450}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
